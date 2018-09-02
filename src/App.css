@@ -1,0 +1,58 @@
+/* Global */
+body {
+    background-color: rgb(230, 230, 230);
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+::selection {
+    color: white; 
+    background: purple;
+}
+
+/* Navbar */
+.navbar {
+    padding-top: 50px;
+}
+.nav-item {
+    padding-left: 50px;
+}
+.nav-a {
+    color: black;
+}
+.nav-a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+/* Landing */
+.landing {
+    padding-top: 100px;
+}
+.p-landing {
+    width: 500px;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    /* Height of the footer */
+    background: rgb(206, 206, 206);
+}
+.social {
+    color: black;
+}
+.social:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+
+/* Responsive */
+@media (max-width: 800px) {
+    .p-landing {
+        width: 100%;
+    }
+}
